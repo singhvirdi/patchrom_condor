@@ -1,0 +1,15 @@
+*** ./smali/android/webkit/WebView.smali	2016-02-16 18:55:30.250745438 +0530
+--- /home/jaspreet/patchrom6/moto/temp/new_smali/framework.jar.out/./smali/android/webkit/WebView.smali	2016-02-16 18:59:26.058744747 +0530
+***************
+*** 167,172 ****
+--- 167,176 ----
+  
+      invoke-static {}, Landroid/webkit/CookieSyncManager;->setGetInstanceIsAllowed()V
+  
++     invoke-static {p0, p1}, Landroid/webkit/WebViewInjector;->initEgretLoader(Landroid/webkit/WebView;Landroid/content/Context;)V
++ 
++     invoke-static {p1}, Lmiui/content/res/ThemeFontChangeHelper;->markWebViewCreated(Landroid/content/Context;)V
++ 
+      return-void
+  
+      :cond_1

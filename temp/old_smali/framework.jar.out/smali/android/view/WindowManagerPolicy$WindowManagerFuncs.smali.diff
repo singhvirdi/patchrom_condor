@@ -1,0 +1,14 @@
+*** ./smali/android/view/WindowManagerPolicy$WindowManagerFuncs.smali	2016-02-16 18:55:52.078745374 +0530
+--- /home/jaspreet/patchrom6/moto/temp/new_smali/framework.jar.out/./smali/android/view/WindowManagerPolicy$WindowManagerFuncs.smali	2016-02-16 18:59:48.934744680 +0530
+***************
+*** 32,37 ****
+--- 32,40 ----
+  .method public abstract getWindowManagerLock()Ljava/lang/Object;
+  .end method
+  
++ .method public abstract reboot()V
++ .end method
++ 
+  .method public abstract rebootSafeMode(Z)V
+  .end method
+  

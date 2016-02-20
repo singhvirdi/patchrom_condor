@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/DeviceStorageMonitorService.smali	2016-02-16 18:54:47.870745562 +0530
+--- /home/jaspreet/patchrom6/moto/temp/new_smali/services.jar.out/./smali/com/android/server/DeviceStorageMonitorService.smali	2016-02-16 18:58:42.762744874 +0530
+***************
+*** 1120,1126 ****
+  
+      if-eqz v0, :cond_0
+  
+!     const-string v0, "android.settings.INTERNAL_STORAGE_SETTINGS"
+  
+      :goto_0
+      invoke-direct {v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+--- 1120,1126 ----
+  
+      if-eqz v0, :cond_0
+  
+!     const-string v0, "miui.intent.action.GARBAGE_CLEANUP"
+  
+      :goto_0
+      invoke-direct {v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V

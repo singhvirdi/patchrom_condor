@@ -1,0 +1,17 @@
+*** ./smali/com/android/server/wm/WindowManagerService$H.smali	2016-02-16 18:54:46.210745567 +0530
+--- /home/jaspreet/patchrom6/moto/temp/new_smali/services.jar.out/./smali/com/android/server/wm/WindowManagerService$H.smali	2016-02-16 18:58:40.826744880 +0530
+***************
+*** 790,795 ****
+--- 790,801 ----
+  
+      if-nez v2, :cond_9
+  
++     move-object/from16 v0, v35
++ 
++     iget-object v2, v0, Lcom/android/server/wm/AppWindowToken;->startingData:Lcom/android/server/wm/StartingData;
++ 
++     if-nez v2, :cond_9
++ 
+      monitor-exit v3
+  
+      goto :goto_4

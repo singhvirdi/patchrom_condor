@@ -6,7 +6,7 @@
 local-zip-file     := stockrom.zip
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
-local-out-zip-file := MIUI_nexus5.zip
+local-out-zip-file := MIUI_motoE.zip
 
 # the location for local-ota to save target-file
 local-previous-target-dir := 

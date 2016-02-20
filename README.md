@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> a417fb020099b4e9a7818c3b432996b10adfb030
 Unified Device Tree For Motorola E
 
 The Motorola (codenamed "Condor") is a low-range smartphone from Motorola mobility. It was announced on May 2014.
